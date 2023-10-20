@@ -183,16 +183,19 @@
 }
 /* flipThree----------------------------------------- */
 .flipThree{
-    background-color: #6d6c6c;
+    background-color: #b6b6b6;
     overflow: hidden;
+    position: relative;
     width: 100%;
     height: 100vh;
 }
 .container{
+    display: flex;
     position: absolute;
-    /* left:10%; */
-    /* top:0; */
-    /* transform: translate(-50%,-50%); */
+    overflow: hidden;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
     width:70%;
     height:80%;
     padding:50px;
